@@ -1,0 +1,45 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+<style>
+    .icon-large {
+        font-size: 50px; /* ปรับขนาดไอคอน */
+    }
+    .icon-medium {
+        font-size: 30px; /* ปรับขนาดไอคอน */
+    }
+</style>
+
+<!-- Navbar -->
+<nav class="w-full bg-white shadow-md fixed top-0 z-50">
+    <div class="flex justify-between items-center px-6 py-4">
+        <!-- โลโก้ -->
+        <a href="/routes" class="flex items-center space-x-2">
+            <h2 class="text-4xl font-bold text-[#E2A226] baloo-bhai">AOMTANG</h2>
+        </a>
+        
+        <!-- เมนู -->
+        <ul class="flex space-x-6">
+            <!-- เส้นทาง -->
+            <li>
+                <a href="/routes" class="flex items-center text-black hover:text-yellow-500">
+                    <i class="fi fi-rr-home icon-medium mr-2"></i>
+                    <span class="noto text-lg">หน้าแรก</span>
+                </a>
+            </li>
+           
+            <li>
+                <a href="/setting" class="flex items-center text-black hover:text-yellow-500">
+                    <i class="fi fi-rr-settings icon-medium mr-2"></i>
+                    <span class="noto text-lg">ตั้งค่า</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
